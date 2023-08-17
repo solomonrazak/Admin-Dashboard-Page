@@ -126,6 +126,32 @@ body{
     line-height: 30px;
     cursor: pointer;
 }
+#main-down-section{
+    background-color: beige;
+    padding-left: 10px;
+}
+/* .up-texts{
+display: flex;
+justify-content: space-between;
+}
+.admin{
+    margin-right: 60px;
+} */
+.down-down-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#card-main-section{
+    grid-column: 1 / 3;
+    grid-row: 1 / -1;
+}
+
+.right-main-card{
+    grid-column: 3 / -1;
+    grid-row: 1 / -1;
+}
 
 
 
