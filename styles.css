@@ -149,7 +149,8 @@ justify-content: space-between;
     grid-column: 1 / 3;
     grid-row: 1 / -1;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 11.5em);
+    grid-row-gap: 10px;
 }
 
 .right-main-card{
@@ -166,9 +167,64 @@ hr{
     align-content: center;
     text-align: center;
 }
+.card-main{
+    background-color: white;
+    width: 20em;
+    height: 10em;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border-left: 4px solid yellow;
+}
+
+.img-side-icon{
+    width: 15px;
+    height: 15px;
+}
+.img-side{
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
 .inside-card{
-    width: 100px;
-    height: 100px;
+    background-color: white;
+    width: 19em;
+    height: 19em;
+    margin-left: 5px;
+    padding-left: 15px;
+    
+
+}
+.class-side-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 19em;
+    height: 17em;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+   
+    
+
+}
+.in-image{
+    width: 30px;
+    height: 30px;
+}
+.in-cont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    padding-left: 5px;
+
 }
 
 
