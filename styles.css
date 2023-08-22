@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow:visible;
 }
 
 .grid-container{
@@ -16,7 +17,24 @@ body{
     grid-row: 1/-1;
     background-color: blue;
     width: 200px;
+    display: flex;
+    justify-content: center;
     
+    
+    
+}
+.main-dash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.down-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 #main-section{
@@ -37,11 +55,26 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: -10px;
+    justify-content: space-between;
+}
+.dashboard-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.dashes{
+    align-self: flex-end;
 }
 .icon-img{
     fill: white;
     height: 20px;
     width: 20px;
+    
+}
+.icon-text{
+    align-self: flex-end;
 }
 .first-down-left{
     display: flex;
@@ -102,6 +135,9 @@ body{
     width: 40px;
     height: 40px;
 }
+.text-head{
+    font-weight: bold;
+}
 .left-side{
     display: flex;
     align-items: center;
@@ -130,14 +166,18 @@ body{
 #main-down-section{
     background-color: beige;
     padding-left: 10px;
+    padding-top: 20px;
 }
-/* .up-texts{
+.up-texts{
 display: flex;
 justify-content: space-between;
+margin-top: -42em;
+font-weight: bold;
 }
 .admin{
-    margin-right: 60px;
-} */
+    margin-right: -29.5em;
+} 
+
 .down-down-sec{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -195,6 +235,7 @@ hr{
     height: 19em;
     margin-left: 5px;
     padding-left: 15px;
+    border-radius: 5px;
     
 
 }
@@ -202,11 +243,12 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 1px;
-    width: 19em;
+    width: 20em;
     height: 17em;
     background-color: white;
     margin-top: 20px;
     margin-left: 5px;
+    border-radius: 5px;
    
     
 
