@@ -15,10 +15,11 @@ body{
 #left-section{
     grid-column: 1/2;
     grid-row: 1/-1;
-    background-color: blue;
+    background-color: #3b82f6;
     width: 200px;
     display: flex;
     justify-content: center;
+    color: white;
     
     
     
@@ -108,7 +109,7 @@ body{
 
 .search-bar{
     height: 17px;
-    background-color: gray;
+    background-color: #e5e7eb;
     width: 20em;
     border-radius: 5px;
     margin-left: 10px;
@@ -150,7 +151,7 @@ body{
     align-items: center;
 }
 .right-down a{
-    background-color: blue;
+    background-color: #3b82f6;
     width: 70px;
     height: 30px;
     text-align: center;
@@ -163,8 +164,11 @@ body{
     line-height: 30px;
     cursor: pointer;
 }
+.small{
+    font-weight: bold;
+}
 #main-down-section{
-    background-color: beige;
+    background-color: #e5e7eb;
     padding-left: 10px;
     padding-top: 20px;
 }
@@ -175,7 +179,7 @@ margin-top: -42em;
 font-weight: bold;
 }
 .admin{
-    margin-right: -29.5em;
+    margin-right: -30em;
 } 
 
 .down-down-sec{
@@ -252,6 +256,9 @@ hr{
    
     
 
+}
+.con-head{
+    margin-bottom: 8px;
 }
 .in-image{
     width: 30px;
